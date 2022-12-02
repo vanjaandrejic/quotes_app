@@ -10,7 +10,7 @@ function App() {
     <Layout>
       <Switch>
         <Route path="/" exact>
-          <Redirect to="quotes" />
+          <Redirect to="/quotes" />
         </Route>
         <Route path="/quotes" exact>
           <AllQuotes />
